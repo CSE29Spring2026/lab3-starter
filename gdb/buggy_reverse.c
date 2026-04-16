@@ -41,5 +41,13 @@ int main(int argc, char *argv[]) {
     char str2[] = "Aaron Schulman";
     int swaps2 = reverse(str2);
     printf("Reversed: \"%s\", num swaps: %d\n", str2, swaps2);
+    
+	char str3[] = "Gerald A. Soosairaj";
+    int swaps3 = reverse(str3);
+    printf("Reversed: \"%s\", num swaps: %d\n", str3, swaps3);
+	
+	char str4[] = "Olivia Weng";
+    int swaps4 = reverse(str4);
+    printf("Reversed: \"%s\", num swaps: %d\n", str4, swaps4);
     return 0;
 }
